@@ -351,4 +351,3 @@ Calcula la longitud de la cadena s.
 Asigna dinámicamente memoria suficiente para almacenar una copia de la cadena s más el carácter nulo de terminación.
 Copia la cadena s original en la memoria recién asignada.
 Devuelve un puntero al inicio de la nueva cadena duplicada.
-# 42-libft
