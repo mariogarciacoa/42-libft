@@ -1,4 +1,4 @@
-#FUNCTIONS
+# FUNCTIONS
 
 ## ft_isalpha 
 
