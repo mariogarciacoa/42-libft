@@ -14,6 +14,9 @@
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
+	void	*dest_ptr;
+
+	dest_ptr = dest;
 	if (!dest && !src)
 		return (dest);
 	if (dest == src)
@@ -28,5 +31,5 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		while (n--)
 			*(char *)dest++ = *(char *)src++;
 	}
-	return (dest);
+	return (dest_ptr);
 }
